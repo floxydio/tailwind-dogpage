@@ -7,6 +7,7 @@
 
 body {
     background-color: #267198;
+    transition: 0.3s all;
 }
 
 nav {
@@ -15,6 +16,18 @@ nav {
 
 html {
     overflow-x: hidden;
+}
+
+.drk {
+    background-color: black;
+    width: 80px;
+    height: 30px;
+}
+
+.dark {
+    background-color: rgb(14, 13, 13);
+    color:white;
+    transition: 0.4s all;
 }
 
 .wrap {
