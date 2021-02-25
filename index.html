@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/tailwind.css">
     <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <title>GFHouse - Landing</title>
 </head>
 <body>
     <nav class="flex align-middle ">
-        <div class="nav-context text-white w-full sm:text-red-600 md:text-gray-50 flex-row flex wrap">
+        <div class="nav-context text-white w-full md:text-gray-50 flex-row flex wrap">
             <div class="left-logo"><span class="font-bold">GF</span><span class=" font-bold"style="color:rgb(218, 14, 14);">X</span>house</div>
-            <span id="js-navbar-toggle" class="navbar-toggle">Trigger</span>
+            <span id="js-navbar-toggle" class="navbar-toggle"><i class="fas fa-bars"></i></span>
             <div class="right-logo flex ml-auto" id="js-menu">
                 <a href="#" class="nav-links"><p>Home</p></a>
                 <a href="#" class="nav-links"><p>About Us</p></a>
                 <a href="#" class="nav-links"><p>Service</p></a>
                 <a href="#" class="nav-links"><p>Gallery</p></a>
                 <a href="" class="nav-links"><p>Contact Us</p></a>
-                <button class="drk nav-links" onclick="darkTheme()">Dark</button>
+                <button class="drk nav-links rounded" onclick="darkTheme()"><i class="fas fa-moon"></i></button>
             </div>
         </div>
     </nav>
